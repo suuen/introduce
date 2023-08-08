@@ -43,14 +43,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/image"
         android:layout_width="141dp"
         android:layout_height="131dp"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/_57ad946c0c7eb5b6d25713d7a552d18_sticker" />
+        app:srcCompat="@drawable/five" />
 
     <TextView
         android:id="@+id/textView7"
@@ -63,7 +63,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/image" />
 
     <TextView
         android:id="@+id/textView11"
