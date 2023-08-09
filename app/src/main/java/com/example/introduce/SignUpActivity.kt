@@ -31,7 +31,7 @@ class SignUpActivity : AppCompatActivity() {
                 intent.putExtra("signUpPassword", password)
                 setResult(Activity.RESULT_OK, intent)
                 finish()
-                Toast.makeText(this, "회원가입 완료", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "회원가입 완료 ", Toast.LENGTH_LONG).show()
             } else {
                 Toast.makeText(this, "입력되지 않은 정보가 있습니다.", Toast.LENGTH_LONG).show()
             }
